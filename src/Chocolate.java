@@ -10,4 +10,16 @@
 
 
 public class Chocolate {
+    public static void main(String[] args) {
+        int chocolate = 1;
+        System.out.println(splitChocolate(chocolate));
+    }
+
+    public static int splitChocolate(int num){
+        if(num > 1){
+            return num - 1;
+        }else {
+            return 0;
+        }
+    }
 }
