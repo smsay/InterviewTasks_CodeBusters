@@ -14,7 +14,7 @@ public class Snail_Sort {
         int arr[][] = { {1,2,3}, {8, 9, 4}, {7,6,5} };
         System.out.println(snail(arr));
     }
-    public static ArrayList<Integer> snail(int[][] arr){
+    public static ArrayList<Integer> snailByDiana(int[][] arr){
         ArrayList<Integer> result = new ArrayList<>();
 
         for(int i = 0; i < arr.length; i++){

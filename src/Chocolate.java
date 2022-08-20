@@ -15,7 +15,7 @@ public class Chocolate {
         System.out.println(splitChocolate(chocolate));
     }
 
-    public static int splitChocolate(int num){
+    public static int splitChocolateByDiana(int num){
         if(num > 1){
             return num - 1;
         }else {

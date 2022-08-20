@@ -15,7 +15,7 @@ public class Accumul {
         System.out.println(accumulateChars(str));
     }
 
-    public static String accumulateChars(String str){
+    public static String accumulateCharsByOl_Me(String str){
         String result = "";
         for(int i = 0; i < str.length(); i++){
             result += str.substring(i, i + 1).toUpperCase() + str.substring(i, i + 1).repeat(i).toLowerCase();
